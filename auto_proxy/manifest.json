@@ -1,0 +1,22 @@
+{
+  "name": "AutoProxy",
+  "version": "0.1",
+  "minimum_chrome_version": "10.0",
+  "description": "Auto proxy to awebproxy.com",
+  "browser_action": {
+    "default_icon": {
+      "19": "unlock19.png",
+      "38": "unlock38.png"
+    },
+    "default_title": "Auto Proxy",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "tabs",
+    "clipboardWrite"
+  ],
+  "manifest_version": 2
+}
